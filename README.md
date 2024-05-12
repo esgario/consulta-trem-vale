@@ -1,6 +1,10 @@
 # Consulta Trem da Vale
 
+Consulta a disponibilidade de passagens de trem da Vale.
+
 <img src="assets/screenshot.jpg" width="300">
+
+> **Nota:** Projeto feito para suprir uma necessidade pessoal, portanto, não possui garantia de funcionamento nem de manutenção.
 
 ## Como usar
 
