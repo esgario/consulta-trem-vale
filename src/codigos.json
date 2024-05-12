@@ -1,0 +1,14 @@
+{
+  "ferrovia": {
+    "Estrada de Ferro Vitoria a Minas": "03"
+  },
+  "classes": {
+    "Executiva": 44,
+    "Economica": 43
+  },
+  "locais": {
+    "Aimorés": 7166,
+    "Governador Valadares": 7173,
+    "Pedro Nolasco": 7157
+  }
+}
