@@ -23,7 +23,13 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run script
-      run: python src/main.py
+      run: python src/main.py --data_ida 19/05/2024 --classe Executiva
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+    - name: Run script
+      run: python src/main.py --data_ida 19/05/2024 --classe Economica
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
