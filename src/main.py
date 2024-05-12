@@ -50,7 +50,7 @@ def filter_passagens_ida(results, data_ida):
 
 def prepare_response(response, data_ida, classe):
     """Prepare the response to be sent to the user"""
-    message = "[TESTE]/\n\n"
+    message = ""
     if response.status_code == 200:
         results = response.json()
         message += f"Origem: {results['descricaoOrigem']}\n"
