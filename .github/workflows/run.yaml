@@ -23,13 +23,13 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run script
-      run: python src/main.py --data_ida 12/10/2024 --classe Economica --origem "Governador Valadares" --destino "Pedro Nolasco" --total_passageiros 2
+      run: python src/main.py --data_ida 12/10/2024 --classe Economica --origem "Governador Valadares" --destino "Pedro Nolasco" --total_passageiros 1
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
     - name: Run script
-      run: python src/main.py --data_ida 12/10/2024 --classe Executiva --origem "Governador Valadares" --destino "Pedro Nolasco" --total_passageiros 2
+      run: python src/main.py --data_ida 12/10/2024 --classe Executiva --origem "Governador Valadares" --destino "Pedro Nolasco" --total_passageiros 1
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
